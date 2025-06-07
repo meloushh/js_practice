@@ -6,5 +6,9 @@ import { IncomingMessage, ServerResponse } from "http";
  */
 export function PageHome(req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end((new Date()).toISOString());
+    res.write((new Date()).toISOString());
+}
+
+export function CreateHabit(req, res) {
+
 }

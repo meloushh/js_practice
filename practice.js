@@ -6,15 +6,14 @@ function User(id, name) {
 export function Cheatsheet() {
     // Primitives
     {
-        /*
-        string
-        number
-        boolean
-        null
-        undefined
-        symbol
-        bigint
-        */
+        let v_str = 'milos';
+        let v_number = 15;
+        let v_bigint = 123456789012345678901234567890n;
+        let v_bool = true;
+        let v_undefined;
+        let v_null = null;
+        let v_symbol = Symbol('id');
+        // console.log(v_symbol); // Symbol(id)
     }
 
     // Classes, objects
@@ -37,9 +36,6 @@ export function Cheatsheet() {
         /*
         new Object()   // A new Object object
         new Array()    // A new Array object
-        new Map()      // A new Map object
-        new Set()      // A new Set object
-        new Date()     // A new Date object
         new RegExp()   // A new RegExp object
         new Function() // A new Function object
         */

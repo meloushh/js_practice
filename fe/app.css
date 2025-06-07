@@ -1,0 +1,18 @@
+:root {
+    --size1: 6px;
+    --size2: 10px;
+    --size3: 20px;
+}
+
+body {
+    font-family: -apple-system, 'Segoe UI Light';
+    /* font-family: -apple-system, 'Segoe UI Light', Ubuntu, Arial, sans-serif; */
+}
+
+h1 {
+    padding-top: var(--size2);
+    padding-bottom: var(--size2);
+    font-size: 30px;
+}
+
+.p2 { padding: var(--size2) }
